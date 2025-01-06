@@ -1,0 +1,120 @@
+/******************************/
+/* General Reausable Components */
+/******************************/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* font-size: 20px; */
+  /* 10px / 16px = 0.625 =62.5% */
+  /* Procentage of user's browser font size setting*/
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Rubik";
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+}
+
+.heading-primary {
+  font-size: 5.2rem;
+  font-weight: 700;
+  line-height: 1.1;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 1.6rem;
+}
+
+.heading-secondary {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 1.1;
+  color: #fff;
+  margin-bottom: 1.6rem;
+  text-transform: uppercase;
+}
+
+.heading-tertiary {
+  font-size: 3.6rem;
+  font-weight: 300;
+  line-height: 1.1;
+  color: #fff;
+  margin-bottom: 1.6rem;
+}
+
+.link-buttons {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.btn:link,
+.btn:visited {
+  display: inline block;
+  background-color: #a30a7f;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 1.6rem 3.2rem;
+  border-radius: 30px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #8c006a;
+  transform: scale(1.05); /* Slight zoom effect */
+}
+
+.svg-link {
+  width: 50px;
+  height: 50px;
+  transition: transform 0.3s ease, fill 0.3s ease;
+  cursor: pointer;
+}
+
+.svg-link:hover {
+  transform: scale(1.2);
+  filter: brightness(1.2);
+}
+
+/******************************/
+/* Project Section Cards  */
+/******************************/
+
+.section-projects {
+  padding: 9.6rem 0;
+  background-color: #0a0a0a;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.container {
+  max-width: 130rem;
+  padding: 0 7rem;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  gap: 9.6rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
