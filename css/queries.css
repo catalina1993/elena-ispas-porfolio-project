@@ -3,9 +3,9 @@
 /* Medium screens (tablets, 768px and above) */
 @media (max-width: 1024px) {
   .project-card {
-    grid-template-columns: 1fr; /* Stack content vertically */
-    padding: 20px; /* Reduce padding */
-    gap: 1.5rem; /* Reduce gap */
+    grid-template-columns: 1fr; 
+    padding: 20px; 
+    gap: 1.5rem; 
   }
 
   img {
